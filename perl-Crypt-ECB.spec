@@ -34,7 +34,7 @@ Odpowied¼ dlaczego znajduje siê w ksi±¿kach z dziedziny kryptografii.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 %{__make} test
 
