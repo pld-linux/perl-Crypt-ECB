@@ -6,7 +6,7 @@ Summary(pl):	Modu³ Perla Crypt::ECB - implementacja trybu ECB
 Name:		perl-Crypt-ECB
 Version:	1.1
 Release:	2
-License:	GPL
+License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}-2.tar.gz
 # Source0-md5:	8c15a093e500abdd3ac24ca199fae7b9
