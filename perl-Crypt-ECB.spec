@@ -2,7 +2,7 @@
 %define		pdir	Crypt
 %define		pnam	ECB
 Summary:	Crypt::ECB Perl module - implementation of the ECB mode
-Summary(pl):	Modu³ Perla Crypt::ECB - implementacja trybu ECB
+Summary(pl.UTF-8):   ModuÅ‚ Perla Crypt::ECB - implementacja trybu ECB
 Name:		perl-Crypt-ECB
 Version:	1.1
 Release:	3
@@ -22,12 +22,12 @@ encrypt and decrypt messages of arbitrarily long length. Though for
 security reasons other modes than ECB such as CBC should be preferred.
 See textbooks on cryptography if you want to know why.
 
-%description -l pl
-Ten modu³ jest czysto perlow± implementacj± trybu ECB. W po³±czeniu z
-szyfrem blokowym, takim jak DES, IDEA lub Blowfish, mo¿na kodowaæ i
-rozkodowywaæ wiadomo¶ci o dowolnej d³ugo¶ci. Jednak ze wzglêdów
-bezpieczeñstwa lepiej u¿ywaæ innych trybów ni¿ ECB, na przyk³ad CBC.
-Odpowied¼ dlaczego znajduje siê w ksi±¿kach z dziedziny kryptografii.
+%description -l pl.UTF-8
+Ten moduÅ‚ jest czysto perlowÄ… implementacjÄ… trybu ECB. W poÅ‚Ä…czeniu z
+szyfrem blokowym, takim jak DES, IDEA lub Blowfish, moÅ¼na kodowaÄ‡ i
+rozkodowywaÄ‡ wiadomoÅ›ci o dowolnej dÅ‚ugoÅ›ci. Jednak ze wzglÄ™dÃ³w
+bezpieczeÅ„stwa lepiej uÅ¼ywaÄ‡ innych trybÃ³w niÅ¼ ECB, na przykÅ‚ad CBC.
+OdpowiedÅº dlaczego znajduje siÄ™ w ksiÄ…Å¼kach z dziedziny kryptografii.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
