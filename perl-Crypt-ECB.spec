@@ -2,7 +2,7 @@
 %define		pdir	Crypt
 %define		pnam	ECB
 Summary:	Crypt::ECB Perl module - implementation of the ECB mode
-Summary(pl.UTF-8):   Moduł Perla Crypt::ECB - implementacja trybu ECB
+Summary(pl.UTF-8):	Moduł Perla Crypt::ECB - implementacja trybu ECB
 Name:		perl-Crypt-ECB
 Version:	1.1
 Release:	3
