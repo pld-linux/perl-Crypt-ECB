@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Crypt
 %define		pnam	ECB
+%include	/usr/lib/rpm/macros.perl
 Summary:	Crypt::ECB Perl module - implementation of the ECB mode
 Summary(pl.UTF-8):	Moduł Perla Crypt::ECB - implementacja trybu ECB
 Name:		perl-Crypt-ECB
@@ -10,6 +10,7 @@ License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}-2.tar.gz
 # Source0-md5:	8c15a093e500abdd3ac24ca199fae7b9
+URL:		http://search.cpan.org/dist/Crypt-ECB/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
