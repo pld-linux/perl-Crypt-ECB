@@ -8,7 +8,7 @@ Version:	1.45
 Release:	1
 License:	GPL v2+
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Crypt/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	c0eb6e86045c1145fbc7867a84e2dcdd
 URL:		http://search.cpan.org/dist/Crypt-ECB/
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -52,4 +52,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README
 %{perl_vendorlib}/Crypt/ECB.pm
-%{_mandir}/man3/*
+%{_mandir}/man3/Crypt::ECB.3pm*
