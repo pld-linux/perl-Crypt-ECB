@@ -1,6 +1,5 @@
 %define		pdir	Crypt
 %define		pnam	ECB
-%include	/usr/lib/rpm/macros.perl
 Summary:	Crypt::ECB Perl module - implementation of the ECB mode
 Summary(pl.UTF-8):	Moduł Perla Crypt::ECB - implementacja trybu ECB
 Name:		perl-Crypt-ECB
