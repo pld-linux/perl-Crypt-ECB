@@ -4,7 +4,7 @@ Summary:	Crypt::ECB Perl module - implementation of the ECB mode
 Summary(pl.UTF-8):	Moduł Perla Crypt::ECB - implementacja trybu ECB
 Name:		perl-Crypt-ECB
 Version:	1.45
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Crypt/%{pdir}-%{pnam}-%{version}.tar.gz
