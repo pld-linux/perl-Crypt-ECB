@@ -1,15 +1,19 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+#
 %define		pdir	Crypt
 %define		pnam	ECB
 Summary:	Crypt::ECB Perl module - implementation of the ECB mode
 Summary(pl.UTF-8):	Moduł Perla Crypt::ECB - implementacja trybu ECB
 Name:		perl-Crypt-ECB
-Version:	1.45
-Release:	2
+Version:	2.23
+Release:	1
 License:	GPL v2+
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Crypt/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	c0eb6e86045c1145fbc7867a84e2dcdd
-URL:		http://search.cpan.org/dist/Crypt-ECB/
+Source0:	https://www.cpan.org/modules/by-module/Crypt/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	0bc63fea36ce864469ee8bf6c410ade4
+URL:		https://metacpan.org/dist/Crypt-ECB
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -36,7 +40,8 @@ Odpowiedź dlaczego znajduje się w książkach z dziedziny kryptografii.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
-%{__make} test
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
